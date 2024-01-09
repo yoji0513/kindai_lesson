@@ -1,16 +1,15 @@
 // アクセス数を取得
-const getDateData = Object.keys(localStorage);
-const getAccessData = Object.values(localStorage);
+// ここにデータを作成する
 
 // chat.jsでグラフを生成
 let lineCtx = document.getElementById("lineChart");
 let lineConfig = {
   type: 'bar',
   data: {    
-    labels: getDateData,
+    labels: ここに日付データ,
     datasets: [{
       label: 'アクセス数',
-      data: getAccessData,
+      data: ここにアクセスデータ,
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
     }],

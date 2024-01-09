@@ -22,4 +22,3 @@ updateAccessCount();
 const currentDate = getFormattedDate();
 const accessCount = localStorage.getItem(currentDate) || 0;
 
-console.log(`今日のアクセス数: ${accessCount}`);
