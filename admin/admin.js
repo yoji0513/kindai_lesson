@@ -2,6 +2,7 @@
 const getDateData = Object.keys(localStorage);
 const getAccessData = Object.values(localStorage);
 
+// chat.jsでグラフを生成
 let lineCtx = document.getElementById("lineChart");
 let lineConfig = {
   type: 'bar',
